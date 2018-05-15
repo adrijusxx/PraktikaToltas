@@ -1,0 +1,59 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#textfield{
+	-fx-background-color: rgba(129, 126, 126, 0.34);
+	-fx-text-fill: white;
+}
+
+#errortext{
+	-fx-font-weight: bold;
+	-fx-background-color: rgba(67, 49, 180, 0.6);
+
+}
+
+#logintext{
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-background-color: rgba(129, 126, 126, 0.34);
+
+}
+
+#borderPane{
+	-fx-background-image: url("images/login.png");
+	-fx-background-size: stretch;
+}
+
+#buttons{
+	-fx-text-fill: white;
+	-fx-pref-height:26;
+	-fx-background-color: black; 
+	-fx-padding: 3px 10px 3px 10px;
+	-fx-background-image: url("images/button.png");
+	-fx-font-weight:bold;
+}
+
+#text{
+	-fx-text-fill: white;
+	-fx-font-weight:bold;
+	-fx-background-color: rgba(129, 126, 126, 0.5);
+}
+
+#textDB{
+	-fx-text-fill: white;
+	-fx-font-weight:bold;
+	-fx-background-color: rgba(129, 126, 126, 0.34);
+}
+
+#text2{
+	-fx-text-fill: white;
+	-fx-font-weight:bold;
+	-fx-background-color: rgba(129, 126, 126, 0.5);
+}
+
+#bpRootDashboard{
+	-fx-background-image: url("images/bg.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 1160 653;
+	-fx-background-position: center center;
+	-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
